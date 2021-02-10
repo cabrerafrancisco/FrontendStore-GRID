@@ -10,7 +10,44 @@
     <link rel="stylesheet" href="css/style.css">
     
 </head>
-<body>
+<body class="footer-fijo">
 
+    <header class="header">
+        <img src="/img/logo.png" alt="logo">
+    </header>
+    <div class="barra">
+        <nav class="nav">
+            <a href="index.html">Tienda</a>
+            <a href="nosotros.html">Nosotros</a>
+        </nav>
+    </div>
+    <main class="contenedor">
+        <h1>REAC JS</h1>
+        <div class="contenedor-informacion">
+            <img src="img/3.jpg" alt="Imagen producto" class="imagen-producto">
+            <div class="contenido">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tenetur exercitationem
+                     officiis, est fuga dolores mollitia accusamus asperiores iste labore odit earum 
+                     similique harum fugit voluptates pariatur perspiciatis vitae qui?
+                </p>
+                <form class="formulario-pedido">
+                    <select class="talla campo" >
+                    <option value="Small">S</option>
+                        <option value="Medium">M</option>
+                        <option value="Long">L</option>
+                        <option value="Extralong">XL</option>
+                    </select>
+                    <input type="number" min="1" class="cantidad campo">
+                    <input type="submit" class="boton" value="Agregar al Carrito">
+                </form>
+            </div>
+            
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="copyright">
+            Front-End Store - Todos los Derechos Reservados 2020
+        </p>
+    </footer>
 </body>
 </html>
